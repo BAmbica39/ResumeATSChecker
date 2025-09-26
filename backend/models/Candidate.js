@@ -7,7 +7,7 @@ const candidateSchema = new mongoose.Schema({
   education: String,
   experience: String,
   atsScore: Number,
-  observations: String,
+  observations: [String],
   filePath: String
 });
 
